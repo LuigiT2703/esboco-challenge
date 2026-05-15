@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato — SoulUp</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/contato.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a class="nav-logo" href="../index.html">🌿 SoulUp</a>
+      <button class="nav-toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="../index.html#como-funciona">Como Funciona</a></li>
+        <li><a href="ranking.html">Ranking</a></li>
+        <li><a href="../index.html#recompensas">Recompensas</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html" class="ativo">Contato</a></li>
+      </ul>
+      <a href="dashboard.html" class="nav-cta">Começar Agora</a>
+    </div>
+  </nav>
+
+  <header class="contato-hero">
+    <span class="chip">Fale Conosco</span>
+    <h1>Entre em Contato</h1>
+    <p>Nossa equipe está pronta para te ajudar. Responderemos em até 24h.</p>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="contato-grid">
+
+        <div class="form-card fade-in">
+          <h2>Envie sua mensagem</h2>
+          <form class="contato-form" novalidate>
+            <div class="form-grupo">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            </div>
+            <div class="form-grupo">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+            </div>
+            <div class="form-grupo">
+              <label for="assunto">Assunto</label>
+              <select id="assunto" name="assunto">
+                <option value="">Selecione o assunto</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="problema">Problema técnico</option>
+                <option value="parcerias">Parcerias</option>
+                <option value="duvidas">Dúvidas</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+            <div class="form-grupo">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            </div>
+            <p class="form-aviso"></p>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Enviar Mensagem →</button>
+          </form>
+        </div>
+
+        <div class="info-card">
+          <div class="info-item fade-in">
+            <div class="info-icon">📧</div>
+            <div>
+              <strong>E-mail</strong>
+              <span>contato@soulup.com.br</span>
+            </div>
+          </div>
+          <div class="info-item fade-in">
+            <div class="info-icon">📍</div>
+            <div>
+              <strong>Localização</strong>
+              <span>São Paulo, SP — Brasil<br>FIAP · 1TDSPG</span>
+            </div>
+          </div>
+          <div class="info-item fade-in">
+            <div class="info-icon">🕐</div>
+            <div>
+              <strong>Horário de atendimento</strong>
+              <span>Segunda a Sexta<br>9h às 18h</span>
+            </div>
+          </div>
+          <div class="info-item fade-in">
+            <div class="info-icon">💬</div>
+            <div>
+              <strong>Redes Sociais</strong>
+              <div class="social-links" style="margin-top:.75rem">
+                <a href="https://github.com/LuigiT2703" target="_blank" class="social-link">💻 GitHub</a>
+                <a href="#" class="social-link">💼 LinkedIn</a>
+                <a href="#" class="social-link">📷 Instagram</a>
+              </div>
+            </div>
+          </div>
+          <div class="info-item fade-in">
+            <div class="info-icon">❓</div>
+            <div>
+              <strong>Perguntas frequentes</strong>
+              <span>Confira nosso FAQ com as principais dúvidas respondidas.</span>
+              <br>
+              <a href="faq.html" class="btn btn-outline-green" style="margin-top:.75rem;padding:8px 18px;font-size:.85rem">Ver FAQ</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">🌿 SoulUp</span>
+          <p>Transforme hábitos em impacto real. Ganhe pontos, suba no ranking e concorra a recompensas sustentáveis.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="LinkedIn">💼</a>
+            <a href="https://github.com/LuigiT2703" target="_blank" aria-label="GitHub">💻</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Páginas</h4>
+          <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Plataforma</h4>
+          <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="ranking.html">Ranking</a></li>
+            <li><a href="integrantes.html">Integrantes</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Prospera</h4>
+          <ul>
+            <li><a href="sobre.html">Sobre o Parceiro</a></li>
+            <li><a href="contato.html">Fale Conosco</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 SoulUp — Programa Prospera · FIAP · 1TDSPG · Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
